@@ -1,0 +1,68 @@
+body{
+    background-image: url("bgimg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    display: flex;
+}
+
+.box .intext{
+    border: 15px solid green; 
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.box .inimg{
+    border: 15px solid green;
+    margin-left: 2%;  
+}
+
+.header2{
+    border: 5px solid black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    outline: 5px solid red;
+}
+
+.header3{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.header1{
+    text-align: center;
+}
+
+
+.schedule {
+    width : 100%;
+    border-collapse : collapse;
+    border-color: green;
+    border: 2;
+  }
+  
+  .schedule th, .schedule td {
+    padding : 8px;
+    text-align : left;
+    border-color: green;
+  }
+  
+  .schedule th {
+     background-color : white;
+     background-color: red;
+  }
+  
+  .time {
+     background-color : #e6ffe6;
+  }
+  
+  .class {
+     background-color : #ffffff;
+  }
+
+
+  
+
