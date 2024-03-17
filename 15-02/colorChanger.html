@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change BG Color</title>
+    <style>
+        body {
+            transition: background-color 0.5s;
+        }
+    </style>
+</head>
+<body>
+<button onclick="changeColor()">Change background Color</button>
+
+<script>
+const c = ["red", "green", "blue", "black", "gray", "white", "yellow", "purple", "pink"];
+let i = 0;
+function changeColor() {
+    const cc = c[i];
+    document.body.style.backgroundColor = cc;
+    i = (i + 1) % c.length;
+}
+</script>
+
+</body>
+</html>

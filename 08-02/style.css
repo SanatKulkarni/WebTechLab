@@ -1,0 +1,154 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: white;
+  width: 21cm;
+  height: 29.7cm;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px; 
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header img {
+  height: 100px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.header h1 {
+  margin-top: 10px;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+
+.links a img {
+  height: 50px; 
+  width: 50px;
+  border-radius: 5px; 
+}
+
+.education {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+}
+
+.education h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: #333;
+}
+
+.education table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.education th {
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.education td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.education tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.skills {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+}
+
+.skills h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: #333;
+}
+
+.skills p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.skills u {
+  color: gray;
+}
+
+
+.work-experience {
+  margin: 20px; 
+}
+
+.work-experience h1 {
+  text-align: center; 
+  text-decoration: underline; 
+  color: gray;
+}
+
+.work-experience p {
+  margin-bottom: 5px; 
+}
+
+.work-experience p::before {
+  content: '\2022'; 
+  margin-right: 5px; 
+}
+
+
+.work-experience p.job-description {
+  margin-left: 20px; 
+}
+
